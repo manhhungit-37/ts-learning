@@ -1,12 +1,12 @@
 //FUNCTION SIGNATURE
 
-let greet: (a: string, b: string) => void;
-greet = (name: string, greeting: string) => console.log(`${name} & ${greeting}`);
+// let greet: (a: string, b: string) => void;
+// greet = (name: string, greeting: string) => console.log(`${name} & ${greeting}`);
 
-greet("hung", "tung");
+// greet("hung", "tung");
 
-let greeting = (name: string, greeting: string): void => {
-  console.log(`${name} & ${greeting}`);
-}
+// let greeting = (name: string, greeting: string): void => {
+//   console.log(`${name} & ${greeting}`);
+// }
 
-greeting("hung", "le");
+// greeting("hung", "le");

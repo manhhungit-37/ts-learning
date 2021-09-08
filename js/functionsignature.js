@@ -1,9 +1,8 @@
-"use strict";
 //FUNCTION SIGNATURE
-var greet;
-greet = function (name, greeting) { return console.log(name + " & " + greeting); };
-greet("hung", "tung");
-var greeting = function (name, greeting) {
-    console.log(name + " & " + greeting);
-};
-greeting("hung", "le");
+// let greet: (a: string, b: string) => void;
+// greet = (name: string, greeting: string) => console.log(`${name} & ${greeting}`);
+// greet("hung", "tung");
+// let greeting = (name: string, greeting: string): void => {
+//   console.log(`${name} & ${greeting}`);
+// }
+// greeting("hung", "le");

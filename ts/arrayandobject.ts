@@ -1,10 +1,14 @@
-// // ARRAY & OBJECT
+// ARRAY & OBJECT
 
-// let names = ['mai', 'nam', 'hung']; // String []
+// let names: string[] = ['mai', 'nam', 'hung']; // String []
+// let arrNumber: Array<number> = [1, 4, 5]; // number []
 
 // names.push("anh");
-// // names.push(4);  //Since it is a string array, numbers cannot be added to the array
+// names.push(4);  //Since it is a string array, numbers cannot be added to the array
 // console.log(names);
+
+// arrNumber.push(12);
+// console.log(arrNumber);
 
 // let mixed = [1, "henry", false];
 // mixed.push(4);
@@ -35,3 +39,33 @@
 // }
 
 // console.log(person);
+
+// interface CourseInterface {
+//   name: string,
+//   time: string,
+//   free?: boolean
+// }
+
+// const htmlCourse: CourseInterface = {
+//   name: "HTML",
+//   time: "10h",
+//   free: false
+// }
+
+// console.log(htmlCourse);
+
+// const cssCourse: CourseInterface = {
+//   name: "CSS",
+//   time: "20h"
+// }
+
+// console.log(cssCourse);
+interface Hung {
+  name: string;
+  id: number;
+}
+
+const hung: Hung[] = [
+  { name: 'asda', id:1 },
+  { name: "dasd", id: 2}
+]

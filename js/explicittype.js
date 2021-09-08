@@ -1,4 +1,3 @@
-"use strict";
 // let mixed: (string | number)[] = [1, "hung"];
 // mixed.push(2);
 // mixed.push("hung");
